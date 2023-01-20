@@ -1,7 +1,7 @@
 # MyWebStore
 
 [![Java](https://img.shields.io/badge/Java-blue?style=for-the-badge&logo=openjdk)]()
-[![Springboot](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=springboot)]()
+[![Springboot](https://img.shields.io/badge/Springboot-yellow?style=for-the-badge&logo=springboot)]()
 
 This is an example of a webstore that offer a reward program to its customers.
 A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent
