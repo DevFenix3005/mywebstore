@@ -23,7 +23,24 @@ Alternatively, you can build the JAR file with ./mvnw clean package and then run
 java -jar target/gs-rest-service-0.1.0.jar
 ```
 
+Another possibility is to run the jar with a Docker container, you can build the JAR file with ./mvnw clean package
+and then build the docker with Dockerfile in this project, as follows:
+
+```shell
+docker build -t loremipsum/mywebstore . 
+```
+
+and after that run the docker
+
+```shell
+docker run -d -p 8080:8080 loremipsum/mywebstore .
+```
+
 ## Database Diagram
 
 ![alt text](.github/assets/MyStore%20Relational%20Diagram.png "DbDiagram")
+
+## Postman Collection
+The postman collection found in this project contains a collection of requests that are ready to be executed and to be able to make a flow for the generation of an order and to be able to see the gift points generated in this purchase order.
+
 
